@@ -240,7 +240,6 @@ class MainGameEventHandler(EventHandler):
         elif key == tcod.event.K_p:
             self.engine.event_handler = InventoryDropHandler(self.engine)
 
-
         # No valid key was pressed
         return action
 
